@@ -1,0 +1,14 @@
+body {
+  padding: 50px;
+}
+table td {
+  border-bottom: 1px solid black;
+}
+th {
+  /* display: flex; */
+  min-width: 250px;
+  flex-direction: row;
+
+  justify-content: space-around;
+  align-items: center;
+}

@@ -1,0 +1,30 @@
+.accordion-group {
+  width: 400px;
+  border: 1px solid #ccc;
+}
+.accordion-item {
+  padding-left: 5px;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+}
+.accordion-title {
+  cursor: pointer;
+  margin: 0;
+  padding: 10px 0;
+  color: #63acff;
+}
+.accordion-content {
+  height: 0;
+  opacity: 0;
+  transition: height 0.5s;
+  overflow: hidden;
+}
+
+.accordion-text {
+  margin: 0;
+}
+
+.accordion-item-active .accordion-content {
+  opacity: 1;
+  transition: height 0.5s;
+}

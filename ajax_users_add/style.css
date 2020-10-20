@@ -1,0 +1,18 @@
+body {
+  /* justify-content: center; */
+  margin: 50px;
+}
+
+.container {
+  padding: 50px;
+  justify-content: center;
+}
+.card-title {
+  cursor: pointer;
+}
+.card-text-off {
+  display: none;
+}
+.card-text-on {
+  display: block;
+}

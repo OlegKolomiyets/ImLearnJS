@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="#" />
+</head>
+
+<body>
+
+    <div class="app" id="app">
+        <div class="form-block">
+            <h1>TODO</h1>
+            <form>
+                <div class="form-group">
+                    <label for="titleInput">Task title</label>
+                    <input type="text" class="form-control" id="titleInput">
+                </div>
+                <div class="form-group">
+                    <label for="descriptionInput">Task description</label>
+                    <input type="text" class="form-control" id="descriptionInput" maxlength="100">
+                </div>
+                <div class="form-group">
+                    <label for="importanceSelect">Importance</label>
+                    <select id="importanceSelect" class="form-control">
+                        <option>Low</option>
+                        <option>Medium</option>
+                        <option>High</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary" id="createButton">Create</button>
+                <button type="submit" class="btn btn-secondary form-edit-button" id="editButton">Edit</button>
+            </form>
+        </div>
+        <div class="cards-block" id="cardsBlock"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
